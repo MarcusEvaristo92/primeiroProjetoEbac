@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    color: #ecf0f1;
+    background-color: #182C61;    
+}
+
+header nav li{
+    display: inline;
+
+}
+
+header nav li a{
+    display: inline;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+    
+    border-radius: 5px;
+    font-size: medium;
+}
+
+header nav li a:hover{
+    background-color:cadetblue;
+    text-decoration: underline;
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandsList{
+    height: 20px;
+    
+
+}
